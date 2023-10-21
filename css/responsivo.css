@@ -1,0 +1,42 @@
+@media screen and (max-width: 768px){
+    .flex-mosaico{
+        display: block;
+    }
+    .flex-mosaico-2{
+        display: block;
+    }
+
+    .item-1-mosaico{
+        width: 100%;
+        padding-top: 80%;
+    }
+
+    .item-2-mosaico{
+        text-align: justify;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 510px){
+    
+    .center{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 960px){
+    .bg{
+        height: auto;
+        text-align: center;
+        padding: 40px 0;
+    }
+
+    .form-container{
+        height: auto;
+        position: static;
+        display: inline-block;
+        margin-right: 0;
+    }
+}
